@@ -1,0 +1,138 @@
+        /*
+        FUENTE: Be Vietnam (googlefont)
+        COLORES:
+        fondo #E5AC0E
+        texto #f7f7f7
+        fondo #f6eed2
+        texto #de9603*/
+
+
+        body {
+            font-family: BeVietnam, sans-serif;
+        }
+/* ------------------------------------------------------------------ NAVBAR ------------------------------------------------------------- */
+        header{
+            height: 80px;
+        }
+        .naveg{
+            background-color: #E5AC0E;
+            position: fixed;
+            width: 100%;
+            z-index: 20; 
+        }
+        
+        .phc{
+            color: #f7f7f7;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 0 90px;
+            text-decoration: none;
+
+        }
+        .logo {
+            color: #f7f7f7;
+            font-size: 30px;
+            font-weight: 900;
+            padding-top: 10px;
+        }
+        nav{
+
+            font-size: 20px;
+            font-weight: 700;
+        }
+/* ---------------------------------------------------------------- CAROUSEL ------------------------------------------------------------- */
+        .carousel-caption{
+            text-align: left;
+        }
+
+        .carousel{
+            margin: 50px 100px;
+
+
+        }
+        .carousel-control-prev{
+            width: 10%;
+            background-color:transparent;
+            border: none;
+        }
+        .carousel-control-next{ 
+            width: 10%;
+            background-color:transparent;
+            border: none;
+        }
+        .titulo-carousel{
+            font-size: 60px;
+            font-weight: 700;
+            text-align: left;
+
+        }
+        .a-carousel{
+            color: #f7f7f7;
+            font-size: 20px;
+            margin-right: 500px;
+
+        }
+        img{
+            height: 400px;
+        }
+        button{
+            opacity: 30%;
+            width: 10%;
+        }
+/* ------------------------------------------------------------- FONDO DIVS ------------------------------------------------------------- */
+        .amarillo{
+            background-color:#E5AC0E ;
+            color: #f7f7f7;
+            padding: 70px 200px;
+            position: relative;
+        
+        }
+        
+        .gris{
+            padding: 70px 200px ;
+            position: relative;
+            color:  #de9603 ;
+            background-color: transparent;
+            
+        }
+
+        h2{
+            font-weight: 100;
+        }
+/* ------------------------------------------------------------------- RECETAS ------------------------------------------------------------- */
+
+        .recetitulo{
+            font-size: 22px;
+            margin-top: 30px;
+        }
+        .spantitulo{
+            font-weight: 700;
+        }
+
+/* -------------------------------------------------------------------- FOOTER ------------------------------------------------------------- */
+
+        #contacto{
+            padding-top: 70px;
+        }
+        .footer{
+            font-weight: 900;
+        }
+        .redes{
+            color: #de9603;
+            font-size: small;
+            font-weight: 500;
+            text-decoration: none; 
+        }
+
+/* -------------------------------------------------------------------- PATTERN ------------------------------------------------------------- */
+
+        .bg-img-gris{
+            background-color: #f7f7f7;
+            opacity: 0.1;
+            width: 100vw;
+            height: 100vh;
+            background-size: 20px 20px;
+            background-image: repeating-linear-gradient(45deg, #E5AC0E 0, #E5AC0E 2px, #f7f7f7 0, #f7f7f7 50%);
+            position: fixed;
+
+        }
